@@ -195,11 +195,12 @@ html {
     margin-bottom: 14px;
 }
 
-@media (max-width: 992px){
-    .text_section h3{
+@media (max-width: 992px) {
+    .text_section h3 {
         font-size: 16px;
     }
-    .text_section h1{
+
+    .text_section h1 {
         font-size: 24px;
     }
 }
@@ -314,6 +315,7 @@ html {
 .Program_Section>p {
     margin-bottom: 60px;
     text-align: center;
+    font-size: 14px;
 
 }
 
@@ -460,7 +462,6 @@ html {
     align-items: center;
     padding: 14px 0px;
     border-radius: 16px;
-
 }
 
 .number_Divs {
@@ -540,4 +541,104 @@ html {
 .video_container a {
     font-size: 13px;
     color: var(--color-black);
+}
+
+
+.Our_Programs {
+    background: var(--main-gradient);
+    padding: 80px 210px;
+}
+
+.Our_Programs .Our_Programs_Text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Our_Programs_Text h1 {
+    margin-bottom: 20px;
+}
+.Our_Programs_Text p{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.Our_Programs_Boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Program_Boxes {
+    background: var(--color-white);
+    border-radius: 18px;
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+}
+
+.Program_Boxes p {
+    margin-bottom: 20px;
+}
+
+
+.number_container_box3{
+    background: var(--complimentary-pink);
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 16px;
+
+}
+.number_Divs_3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0px;
+    gap: 4px;
+    text-align: center;
+    color: var(--color-white);
+    border-right: 2px solid #ef8ca2;
+}
+.number_container_box2{
+    background: var(--secondary-orange);
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 16px;
+
+}
+.number_Divs_2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0px;
+    gap: 4px;
+    text-align: center;
+    color: var(--color-white);
+    border-right: 2px solid #f3b160;
+}
+.number_container_box1{
+    background: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 16px;
+
+}
+.number_Divs_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 0px;
+    gap: 4px;
+    text-align: center;
+    color: var(--color-white);
+    border-right: 2px solid #6ac6c0;
+}
+
+.Program_Boxes p{
+    line-height: 22px;
+    font-size: 14px;
 }
