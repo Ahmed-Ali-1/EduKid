@@ -255,22 +255,25 @@ html {
 /* PROGRAM-SECTION */
 
 .Program_Section {
-    padding: 25px 210px;
-    text-align: center;
-    height: 95vh;
+    padding: 25px 210px 0;
 }
 
 .Program_Section>h1 {
     color: var(--color-black);
     font-size: 28px;
+    text-align: center;
+    margin-bottom: 18px;
 }
 
 .Program_Section>p {
-    margin: 20px 0 60px;
+    margin-bottom: 60px;
+    text-align: center;
+
 }
 
 .three_programs {
     display: flex;
+    justify-content: space-evenly;
     gap: 20px;
 
 }
@@ -284,7 +287,6 @@ html {
     align-items: center;
     gap: 20px;
     padding: 40px;
-
 
 }
 
@@ -305,6 +307,7 @@ html {
     line-height: 26px;
     font-weight: 500;
     font-size: 14px;
+    text-align: center;
 }
 
 .program_box a {
@@ -319,7 +322,7 @@ html {
 
 .program_box:hover {
     background-image: linear-gradient(rgba(25, 193, 182, 0.4), rgba(25, 193, 182, 0.4)),
-        url(../images/Rectangle\ 51\ \(1\).png);
+        url(../images/Rectangle.png);
     color: var(--color-white);
 
 }
@@ -327,4 +330,77 @@ html {
 .program_box:hover a {
     color: var(--color-white);
     border-color: var(--color-white);
+
+}
+
+/*TWO-PROGRAM-SECTION */
+
+.two_program {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    gap: 60px;
+
+}
+
+.left_side_program img {
+    width: 35vw;
+
+}
+
+.right_side_program {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.number_container {
+    background: var(--primary-blue);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding:14px 0px;
+    border-radius: 16px;
+    
+}
+
+.number_Divs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0px;
+    gap: 8px;
+    text-align: center;
+    color: var(--color-white);
+    border-right: 2px solid #6ac6c0;
+}
+.number_Divs h4{
+    font-size: 16px;
+    
+}
+.number_Divs>small{
+    font-size: 10px;
+    font-weight: 300;
+
+}
+.arrow_div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.arrow_div img {
+    background: var(--light-blue);
+    border-radius: 50%;
+    color: var(--primary-blue);
+    padding: 4px;
+    height: 20px;
+}
+
+.arrow_div p {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--color-black);
 }
