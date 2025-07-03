@@ -22,23 +22,6 @@
 
 }
 
-h1 {
-    font-weight: 500;
-    margin: 0;
-}
-h2{
-     font-weight: 500;
-    margin: 0;
-}
-h3{
-     font-weight: 500;
-    margin: 0;
-}
-h4{
-     font-weight: 500;
-    margin: 0;
-}
-
 html {
     overflow-x: hidden;
 }
@@ -93,13 +76,13 @@ html {
     gap: 2px;
 }
 
-.EduKid h1 {
+.EduKid>h1 {
     font-size: 28px;
     color: var(--primary-blue);
 }
 
 .EduKid h1 span {
-    text-decoration: underline;
+    text-decoration: underline !important;
     text-underline-offset: 3px;
 }
 
@@ -157,6 +140,12 @@ html {
     background: var(--main-gradient);
     height: 80vh;
     padding-top: 40px;
+}
+@media (max-width: 992px){
+.Hero_Section {
+    height: 100vh;
+    padding-top: 0px;
+}
 }
 
 .Hero_Section>img {
@@ -245,7 +234,13 @@ html {
 }
 
 .hero_Image img {
-    width: 400px;
+    max-width: 400px;
+}
+
+@media (max-width: 992px) {
+    .hero_Image img {
+    width: 75vw;
+}
 }
 
 .small_img1 {
@@ -445,8 +440,14 @@ html {
 }
 
 .left_side_program>img {
-    width: 500px;
+    max-width: 500px;
 
+}
+@media (max-width: 992px) {
+    .left_side_program>img {
+    width: 75vw;
+
+}
 }
 
 .left_side_program {
@@ -583,7 +584,7 @@ html {
 .Our_Programs_Boxes {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 10px;
 }
 
 .Program_Boxes {
@@ -594,6 +595,27 @@ html {
     flex-direction: column;
     gap: 20px;
     width: 350px;
+}
+
+@media (max-width: 1470px){
+    .Our_Programs {
+    padding: 80px 10px;
+}
+}
+@media (max-width: 1100px){
+   .Our_Programs_Boxes{
+    flex-wrap: wrap;
+    gap: 30px;
+   }
+}
+@media (max-width: 776px){
+   .Program_Boxes{
+
+    flex: 1 1 100%;
+   }
+      .Our_Programs {
+    padding: 80px 20px;
+}
 }
 
 .Program_Boxes p {
@@ -667,16 +689,11 @@ html {
 }
 
 
-
+/* ABOUT-SECTION */
 
 
 .About_Section {
     padding: 120px 210px;
-}
-
-.accordian_section {
-    width: 600px;
-
 }
 
 .about_container {
@@ -687,7 +704,12 @@ html {
 }
 
 .about_img_section>img {
-    width: 550px;
+    max-width: 550px;
+}
+@media (max-width:992px){
+.about_img_section>img {
+    width: 80vw;
+}
 }
 
 .About_Section h1 {
@@ -701,18 +723,33 @@ html {
 
 .about_img_section {
     position: relative;
-
-
 }
 
 .about_img_section>img {
-  
     padding: 20px;
 }
 
 .small_img_8 img {
     width: 70px;
     position: absolute;
-    bottom: 0;
-    right: 10px;
+    bottom: 44px;
+    right: 150px;
+}
+@media (max-width: 1350px){
+    .About_Section {
+    padding: 120px 10px;
+}
+}
+@media (max-width: 992px){
+    .about_container {
+    display: flex;
+    flex-direction: column;
+}
+.About_Section h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+    .About_Section {
+    padding: 40px 10px;
+}
 }
