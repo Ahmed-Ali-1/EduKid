@@ -195,6 +195,15 @@ html {
     margin-bottom: 14px;
 }
 
+@media (max-width: 992px){
+    .text_section h3{
+        font-size: 16px;
+    }
+    .text_section h1{
+        font-size: 24px;
+    }
+}
+
 .text_section p {
     text-decoration: underline;
     color: var(--color-black);
@@ -512,7 +521,7 @@ html {
     font-size: 13px;
     border-radius: 25px;
     color: var(--color-white);
-    padding: 14px 48px;
+    padding: 14px 44px;
 }
 
 .video_container {
