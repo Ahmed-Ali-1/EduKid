@@ -7,7 +7,7 @@
     box-sizing: border-box;
     font-family: "Fredoka", sans-serif;
     letter-spacing: .5px;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 :root {
@@ -20,6 +20,23 @@
     --color-black: #000000;
     --main-gradient: linear-gradient(to left, #EDFEFC, #FEF6EC);
 
+}
+
+h1 {
+    font-weight: 500;
+    margin: 0;
+}
+h2{
+     font-weight: 500;
+    margin: 0;
+}
+h3{
+     font-weight: 500;
+    margin: 0;
+}
+h4{
+     font-weight: 500;
+    margin: 0;
 }
 
 html {
@@ -206,7 +223,7 @@ html {
 }
 
 .text_section p {
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: var(--color-black);
     font-weight: 500;
 }
@@ -546,7 +563,7 @@ html {
 
 .Our_Programs {
     background: var(--main-gradient);
-    padding: 80px 210px;
+    padding: 80px 200px;
 }
 
 .Our_Programs .Our_Programs_Text {
@@ -557,14 +574,15 @@ html {
 .Our_Programs_Text h1 {
     margin-bottom: 20px;
 }
-.Our_Programs_Text p{
+
+.Our_Programs_Text p {
     font-size: 14px;
     line-height: 18px;
 }
 
 .Our_Programs_Boxes {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 20px;
 }
 
@@ -583,7 +601,7 @@ html {
 }
 
 
-.number_container_box3{
+.number_container_box3 {
     background: var(--complimentary-pink);
     display: flex;
     align-items: center;
@@ -591,6 +609,7 @@ html {
     border-radius: 16px;
 
 }
+
 .number_Divs_3 {
     width: 100%;
     display: flex;
@@ -601,7 +620,8 @@ html {
     color: var(--color-white);
     border-right: 2px solid #ef8ca2;
 }
-.number_container_box2{
+
+.number_container_box2 {
     background: var(--secondary-orange);
     display: flex;
     align-items: center;
@@ -609,6 +629,7 @@ html {
     border-radius: 16px;
 
 }
+
 .number_Divs_2 {
     width: 100%;
     display: flex;
@@ -619,7 +640,8 @@ html {
     color: var(--color-white);
     border-right: 2px solid #f3b160;
 }
-.number_container_box1{
+
+.number_container_box1 {
     background: var(--primary-blue);
     display: flex;
     align-items: center;
@@ -627,6 +649,7 @@ html {
     border-radius: 16px;
 
 }
+
 .number_Divs_1 {
     width: 100%;
     display: flex;
@@ -638,7 +661,58 @@ html {
     border-right: 2px solid #6ac6c0;
 }
 
-.Program_Boxes p{
+.Program_Boxes p {
     line-height: 22px;
     font-size: 14px;
+}
+
+
+
+
+
+.About_Section {
+    padding: 120px 210px;
+}
+
+.accordian_section {
+    width: 600px;
+
+}
+
+.about_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+
+.about_img_section>img {
+    width: 550px;
+}
+
+.About_Section h1 {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.accordion-item p {
+    font-size: 14px;
+}
+
+.about_img_section {
+    position: relative;
+
+
+}
+
+.about_img_section>img {
+  
+    padding: 20px;
+}
+
+.small_img_8 img {
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
 }
