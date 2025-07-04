@@ -1,7 +1,6 @@
 .accordion {
   max-width: 550px;
   margin: auto;
-  /* border: 1px solid #ddd; */
   border-radius: 0.25rem;
   background: white;
   overflow: hidden;
@@ -15,10 +14,7 @@
   border-radius: 12px;
 }
 
-.accordion-item+.accordion-item {
-  /* border: 1px solid #882323; */
-
-}
+.accordion-item+.accordion-item {}
 
 .accordion-button {
   background-color: #fff;
@@ -57,7 +53,7 @@
 }
 
 .accordion-item p {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .accordion-button:focus {
