@@ -31,12 +31,17 @@
   align-items: center;
   border: none;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.6s;
 }
 
 .accordion-button.active{
    background-color: #FEA439;
 }
+
+.accordion-button.active p{
+   color: #fff;
+}
+
 .accordion-button:focus {
   background-color: #FEA439;
 }
