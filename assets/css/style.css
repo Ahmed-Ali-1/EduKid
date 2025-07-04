@@ -270,7 +270,7 @@ html {
     }
 
     .Hero_Section {
-        height: 100vh;
+        height: 100%;
         padding-top: 40px;
     }
 
@@ -318,6 +318,15 @@ html {
 
     .head-eection {
         font-size: 12px;
+    }
+
+    .text_section h3 {
+        font-size: 12px;
+    }
+
+    .text_section p {
+        font-size: 13px;
+
     }
 }
 
@@ -402,18 +411,18 @@ html {
 /* PROGRAM-SECTION */
 
 .Program_Section {
-    padding: 80px 200px;
+    padding: 40px 200px 80x;
 }
 
 @media (max-width: 1200px) {
     .Program_Section {
-        padding: 80px 100px;
+        padding: 40px 100px 80px;
     }
 }
 
 @media (max-width: 992px) {
     .Program_Section {
-        padding: 80px 10px;
+        padding: 40px 10px 80px;
     }
 
 }
