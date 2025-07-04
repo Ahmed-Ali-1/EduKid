@@ -1,5 +1,5 @@
 .accordion {
-  max-width: 600px;
+  max-width: 550px;
   margin: auto;
   /* border: 1px solid #ddd; */
   border-radius: 0.25rem;
@@ -9,19 +9,20 @@
   flex-direction: column;
   gap: 16px;
 }
+
 .accordion-item {
   border: 1px solid rgb(210, 210, 210);
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
-.accordion-item + .accordion-item {
+.accordion-item+.accordion-item {
   /* border: 1px solid #882323; */
 
 }
 
 .accordion-button {
   background-color: #fff;
-  border-radius: 14px;
+  border-radius: 12px;
   width: 100%;
   padding: 1rem;
   font-size: 1rem;
@@ -32,14 +33,31 @@
   border: none;
   cursor: pointer;
   transition: all 0.6s;
+  gap: 10px;
+  text-align: left;
 }
 
-.accordion-button.active{
-   background-color: #FEA439;
+@media (max-width: 1200px) {
+  .accordion-button {
+    padding: 12px;
+  }
+
+  .accordion-button.active p {
+    color: #fff;
+    font-weight: 400;
+  }
 }
 
-.accordion-button.active p{
-   color: #fff;
+.accordion-button.active {
+  background-color: #FEA439;
+}
+
+.accordion-button.active p {
+  color: #fff;
+}
+
+.accordion-item p {
+    font-size: 14px;
 }
 
 .accordion-button:focus {
@@ -65,10 +83,10 @@
   padding: 1rem;
   border-top: 1px solid #fff;
   background: #fff;
-  border-radius: 14px;
+  border-radius: 12px;
 }
 
-.accordion-button .icon{
+.accordion-button .icon {
   background-color: #fff;
   border-radius: 100%;
   padding: 0px 6px 4px 6px;
