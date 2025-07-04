@@ -411,7 +411,7 @@ html {
 /* PROGRAM-SECTION */
 
 .Program_Section {
-    padding: 40px 200px 80x;
+    padding: 40px 200px 80px;
 }
 
 @media (max-width: 1200px) {
@@ -871,7 +871,7 @@ html {
     gap: 4px;
     text-align: center;
     color: var(--color-white);
-    border-right: 2px solid var(--complimentary-pink);
+    border-right: 2px solid #ff85a0;
 }
 
 .number_container_box2 {
@@ -891,7 +891,7 @@ html {
     gap: 4px;
     text-align: center;
     color: var(--color-white);
-    border-right: 2px solid var(--secondary-orange);
+    border-right: 2px solid #ffb458;
 }
 
 .number_container_box1 {
@@ -911,7 +911,7 @@ html {
     gap: 4px;
     text-align: center;
     color: var(--color-white);
-    border-right: 2px solid var(--primary-blue);
+    border-right: 2px solid #30cec4;
 }
 
 .Program_Boxes p {
