@@ -144,7 +144,8 @@ html {
 
 .Hero_Section {
     background: var(--main-gradient);
-    height: 75vh;
+    /* height: 75vh; */
+    height: 100%;
     padding-top: 40px;
 }
 
